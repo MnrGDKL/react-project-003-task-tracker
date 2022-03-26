@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-project-003-task-tracker/static/css/main.77699f82.css",
+    "main.js": "/react-project-003-task-tracker/static/js/main.fc2be975.js",
+    "static/js/787.ac9c437c.chunk.js": "/react-project-003-task-tracker/static/js/787.ac9c437c.chunk.js",
+    "index.html": "/react-project-003-task-tracker/index.html",
+    "main.77699f82.css.map": "/react-project-003-task-tracker/static/css/main.77699f82.css.map",
+    "main.fc2be975.js.map": "/react-project-003-task-tracker/static/js/main.fc2be975.js.map",
+    "787.ac9c437c.chunk.js.map": "/react-project-003-task-tracker/static/js/787.ac9c437c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77699f82.css",
+    "static/js/main.fc2be975.js"
+  ]
+}
