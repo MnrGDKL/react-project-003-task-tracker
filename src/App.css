@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFE6C4;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(135deg, #EB0082, #F3B1D2);
+}
+.container span {
+  display: block;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #810089;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px 0 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+.btn:hover{
+  box-shadow: 0 0 5px .2px #cecccc;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #e9e4e6;;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.task:hover{
+  box-shadow: 0 0 2px 2px white;
+  background-color: #e9d7e0;
+}
+
+.task.reminder {
+  border-left: 10px solid #75004C;
+  text-decoration: line-through;
+}
+
+.task.h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+i {
+  transform: translateY(15px);
+}
+i:hover {
+  transform: translateY(15px);
+  font-size: 1.2rem;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+  font-weight: bold;
+  padding-left: 7px;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 2px 5px;
+  padding: 0px 10px;
+  font-size: 17px;
+  background-color: #e9e4e6;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
